@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "728521031142",
+    "firebase_url": "https://badwords-4abcc.firebaseio.com",
+    "project_id": "badwords-4abcc",
+    "storage_bucket": "badwords-4abcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728521031142:android:a3ec3b2b9ecc52aa",
+        "android_client_info": {
+          "package_name": "com.example.androidparticlestarter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728521031142-jub0g1td085nsroamjl9tpai9vs1mgav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaEjObiGgxZjLX4u8hdx8kPZtWl8vps0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728521031142-jub0g1td085nsroamjl9tpai9vs1mgav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

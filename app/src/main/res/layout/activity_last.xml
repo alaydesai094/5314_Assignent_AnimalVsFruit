@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LastActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="Memorize This !!"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="130dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        tools:text="Hello User" />
+
+
+    <Button
+        android:id="@+id/btn_easy"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_below="@id/txt2"
+        android:layout_marginTop="78dp"
+        android:onClick="easyButtonPressed"
+        android:text="Play Next"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_hard"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@id/btn_ceck"
+        android:layout_marginTop="46dp"
+        android:onClick="hardButtonPressed"
+        android:text="STOP PLAYING"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_ceck"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_below="@id/btn_easy"
+        android:layout_marginTop="25dp"
+        android:onClick="checkButtonPressed"
+        android:text="Check"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+</RelativeLayout>
